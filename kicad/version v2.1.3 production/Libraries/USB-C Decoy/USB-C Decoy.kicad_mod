@@ -1,0 +1,119 @@
+(footprint "USB-C Decoy"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f146a957-6b0b-49d5-883f-cf430c8b9133")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USB-C Decoy"
+		(at 0 -10.13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be216d03-17de-4c78-9ea1-50e356eea9f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -11.03 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "649182c8-9dc6-460d-8491-972035c17598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -11.03 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f538c3cf-85ee-442d-a057-de63f49f533b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11.5 -6.35)
+		(end 11.5 6.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "25518fce-fc49-4473-8071-d0850ef165e8")
+	)
+	(fp_rect
+		(start 5.358892 -4.392908)
+		(end 12.858892 4.607092)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7b70c166-b4d2-44ad-a0b3-7da9f160459c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f4556e61-45e2-439a-822f-4bb7e0256035")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -10.3505 -3.6195 90)
+		(size 5.207 1.905)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0e183cee-921c-4c90-b995-199837bde475")
+	)
+	(pad "2" smd roundrect
+		(at -10.3505 3.937 90)
+		(size 5.207 1.905)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "16dccae8-4654-4b9f-8c37-95f9e51c94a3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/USB-C Decoy/USB-C Decoy v6.step"
+		(offset
+			(xyz 11.5 6.2 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

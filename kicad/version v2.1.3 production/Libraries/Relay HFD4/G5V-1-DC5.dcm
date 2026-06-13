@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G5V-1-DC5
+D PCB Relay, SPDT, 1A SPDT PCB Mount Non-Latching Relay PC Pin, 1 A, 5V dc
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e0fe38be7aeeddc666870f4f0da80cdc.pdf
+$ENDCMP
+#
+#End Doc Library

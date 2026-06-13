@@ -1,0 +1,225 @@
+(footprint "SW_RF1-1A-DC-2-R-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.325 -8.635 0)
+		(layer "F.SilkS")
+		(uuid "b72c9768-599d-4f79-86b5-20e2986e75f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_RF1-1A-DC-2-R-1"
+		(at 0.93 8.615 0)
+		(layer "F.Fab")
+		(uuid "d445902b-b365-406f-b69d-ef4d66b28cf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c2cd6c-8b10-4e8b-a893-700a3bcce55c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17be799-6935-4dee-9ef0-ba004ab69566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.5 -7.5)
+		(end 10.5 -7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b6fbe09-e663-466b-8b06-b3abc04cd95e")
+	)
+	(fp_line
+		(start -10.5 7.5)
+		(end -10.5 -7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "308c0a8e-b48e-46bc-8ba7-72fc5972d3e6")
+	)
+	(fp_line
+		(start 10.5 -7.5)
+		(end 10.5 7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcffdcb7-4f2f-450d-967b-24f954f53a81")
+	)
+	(fp_line
+		(start 10.5 7.5)
+		(end -10.5 7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7afae64a-dc49-45fd-b6c1-bd3b3d5d37a2")
+	)
+	(fp_circle
+		(center -11 0)
+		(end -10.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65e9c2f3-a506-412c-9eea-715640e16002")
+	)
+	(fp_line
+		(start -10.75 -7.75)
+		(end -10.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3789d2e3-27bc-47e8-b688-f71e674487ef")
+	)
+	(fp_line
+		(start -10.75 7.75)
+		(end 10.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a765888-67f3-4a8b-addd-5e82855a2606")
+	)
+	(fp_line
+		(start 10.75 -7.75)
+		(end -10.75 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b5f073c-c6d6-486c-b47c-442ff135e61b")
+	)
+	(fp_line
+		(start 10.75 7.75)
+		(end 10.75 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fedb46e9-5181-4e66-8c24-cf8ced75927a")
+	)
+	(fp_line
+		(start -10.5 -7.5)
+		(end 10.5 -7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0998700-4631-4750-bcbd-23d391b51765")
+	)
+	(fp_line
+		(start -10.5 7.5)
+		(end -10.5 -7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db6b409b-c87a-4fe8-8603-24041db85fa7")
+	)
+	(fp_line
+		(start 10.5 -7.5)
+		(end 10.5 7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05489aa7-90e1-4d04-a4ec-900a2f529295")
+	)
+	(fp_line
+		(start 10.5 7.5)
+		(end -10.5 7.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81d556bf-0c36-4d62-bd78-3b557f81f618")
+	)
+	(fp_circle
+		(center -11 0)
+		(end -10.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5d8e2fc1-4fdf-47b8-a24f-d43b1f81999d")
+	)
+	(pad "1" thru_hole oval
+		(at -7.1 0)
+		(size 4 10)
+		(drill oval 0.98 5.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "79149b80-ffe2-429a-a1c3-475f82f5288c")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 4 10)
+		(drill oval 0.98 5.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9dd8a51f-41e2-4103-b5aa-e8910a07d2ac")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Rocker Switch/RF1-1A-DC-2-R-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
